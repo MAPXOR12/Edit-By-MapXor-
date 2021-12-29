@@ -1,7 +1,7 @@
 {
     "website" : {
       "support": "https://discord.gg/aW6TnhGeSS",
-      "domain": "https://marked-verbena-licorice.glitch.me"
+      "domain": ""
     },
     "config": {
         "http": {
@@ -16,7 +16,7 @@
             "enabled": false,
             "port": 8080
         },
-        "callback": "https://marked-verbena-licorice.glitch.me/callback",
+        "callback": "",
         "clientID": "860960049949311026",
         "secret": "rAX6is_iR-K31AP2RxtsRCI45sGMq-zA"
     }
