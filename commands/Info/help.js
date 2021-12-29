@@ -45,9 +45,9 @@ module.exports = {
         const embed = new MessageEmbed()
           .setColor(ee.color)
           .setThumbnail(ee.footericon)
-          .setTitle("Music Bot✨ Commands")
-          .setDescription(`**[Invite Bot  __Slash Commands__ Permissions](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands),**\n\n> Check out the [**Dashboard**](${websiteSettings.website.domain}/dashboard/${message.guild.id}) or the [**Live Music Queue**](${websiteSettings.website.domain}/queue/${message.guild.id})`)
-          .setFooter(`Music Bot✨ ,type: ${prefix}help `, ee.footericon);
+          .setTitle("Calms✨ Commands")
+          .setDescription(`**[Invite Bot  __Slash Commands__ Permissions](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands),**\n\n> Check out the [**Calms Bot**](${websiteSettings.website.domain}/dashboard/${message.guild.id}) or the [**By MapXor**](${websiteSettings.website.domain}/queue/${message.guild.id})`)
+          .setFooter(`Calms Bot✨ ,type: ${prefix}help `, ee.footericon);
         const commands = (category) => {
           return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);
         };
