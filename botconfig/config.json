@@ -1,12 +1,12 @@
 {
-  "token": "NzY5MzMwMjExMTU3ODM1Nzg0.X5Nclw.HyAz2DfFJ0Dv3gx_M9DKq-zp5DQ",
+  "token": "OTE0MDgyMzE3MzQ0MDU5NDAy.YaH3fw.26fV458JuxtwcwBQ6UWaVb2cpTY",
   "prefix": "*",
   "ksoftapi": "NEEDED_FOR_LYRICS",
   "youtubeCookie": "",
   "spotify_api": {
         "enabled": true, "_COMMENT_": "",
-        "clientSecret": "rAX6is_iR-K31AP2RxtsRCI45sGMq-zA",
-        "clientId": "860960049949311026",
+        "clientSecret": "6mkCCYLUdp6D257XOLWxQ1S3AxSC-P_P",
+        "clientId": "914082317344059402",
         "callbackURL":"https://marked-verbena-licorice.glitch.me"
   },
   "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
