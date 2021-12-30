@@ -50,23 +50,6 @@ const website = new disbut.MessageButton()
 .setURL('https://security-bot1-1.junger.repl.co/');
 
 
-const trash = new disbut.MessageButton()
-.setLabel('Delete')
-.setID('delete')
-.setEmoji('903698016240828426')
-.setStyle('red')
- message.react("<a:797855362694774804:891459284183941170>");
-
-const me = await message.channel.send(help,{buttons : [ website, support, invite, vote , trash]})
-
- const filter = async(btn) => btn.clicker.user.id == message.member.id
-                const collector = me.createButtonCollector(filter)
-
-        collector.on("collect", async(button) => {
-                     button.reply.defer()
-                     if(button.id === "delete") {
-                       me.delete().then(()=> message.delete())
-
  
 
 
