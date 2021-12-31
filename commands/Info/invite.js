@@ -22,7 +22,7 @@ module.exports = {
         embeds: [
           new MessageEmbed().setColor(ee.color)
           .setFooter(ee.footertext, ee.footericon)
-          .setDescription(`invite bot <a:emoji_24:926360383424454686> [**Click here to invite me!**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)\n\n **__Invite Bot Slash Commands__**[** __Slash Commands!__**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`)
+          .setDescription(`**invite bot** <a:emoji_24:926360383424454686> [**Click Invite Bot**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)\n\n ** Invite __Slash Commands__**                        [** __Slash Commands!__**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`)
           
      
 
