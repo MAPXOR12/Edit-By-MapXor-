@@ -18,6 +18,8 @@ module.exports = {
   requiredroles: [], //Only allow specific Users with a Role to execute a Command [OPTIONAL]
   alloweduserids: [], //Only allow specific Users to execute a Command [OPTIONAL]
   run: async (client, message, args) => {
+    const commands = (category) => {
+          return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);
     try {
       let prefix = client.settings.get(message.guild.id, "prefix")
       if (args[0] && args[0].length > 0) {
