@@ -48,8 +48,7 @@ module.exports = {
           .setTitle("Calms✨ Commands")
           .setDescription(`**[Invite Bot  __Slash Commands__ Permissions](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands),**\n\n> Check out the [**Calms Bot**](${websiteSettings.website.domain}/dashboard/${message.guild.id}) or the [**By MapXor**](${websiteSettings.website.domain}/queue/${message.guild.id})`)
           .setFooter(`Calms Bot✨ ,type: ${prefix}help `, ee.footericon);
-        const commands = (category) => {
-          return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);
+        
         };
         try {
           for (let i = 0; i < client.categories.length; i += 1) {
